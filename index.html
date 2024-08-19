@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dictionary App</h1>
+        <div class="searchbox">
+            <input type="text" id="input" placeholder="Enter word">
+        <button id="submit" onclick="fetchData()">Search</button>
+        </div>
+      <div class="result">
+        <h1 class="word" id="word"></h1>
+        <p id="PartOfSpeech"></p>
+        <p class="meaning" id="meaning"></p>
+        <h4 class="details" id="details"></h4>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
